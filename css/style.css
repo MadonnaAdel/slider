@@ -1,0 +1,32 @@
+
+.lighter-container{
+    background-color: #00000065;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lighter-container .lighter{
+    width: 60%;
+    height: 400px;
+    background-image: url(/img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow:11px -1px 18px 13px #00000065;
+}
+.lighter-container .lighter i{
+    cursor: pointer;
+    font-size: 2.5 rem;
+}
+.lighter-container .lighter .icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
